@@ -1,0 +1,690 @@
+[
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundpurple.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundpurple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_header.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bookcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wave_bg_header.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_wave_bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lightbulb_outline_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_lightbulb_outline_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgapp.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bgapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aboutus.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\aboutus.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgapp.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bgapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundpink.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundpink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundlogout.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundlogout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bug.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bug.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\person.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\person.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundyello.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundyello.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lock_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sms.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bitcoin.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bitcoin.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundgreen.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundgreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_attach_money_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_attach_money_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_primary.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bg_btn_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\isearch.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\isearch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ill_music.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ill_music.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bellcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bellcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clock.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\callhistory.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\callhistory.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\no_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bginput.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bginput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wifi_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_wifi_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\person.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\person.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emps.jpg",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\emps.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_input.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundpurple.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundpurple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_attach_file_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_attach_file_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\callhistory.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\callhistory.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgsign.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bgsign.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_control_point_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_control_point_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgsign.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bgsign.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proet.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\proet.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bookcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wifi_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_wifi_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbtn.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bgbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundlock.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ill_music.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ill_music.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_purple_gradient.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bg_purple_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundpink.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundpink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\isearch.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\isearch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bugcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bugcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundgreen.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundgreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\co.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\co.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\call.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proet.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\proet.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bellcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bellcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbtnmenu.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bgbtnmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_input.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\co.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\co.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundyello.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundyello.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bugcon.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bugcon.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lock_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aboutus.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\aboutus.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wave_bg_header_2.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_wave_bg_header_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bginput.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bginput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bitcoin.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bitcoin.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_attach_file_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_attach_file_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_header.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_attach_money_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_attach_money_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\no_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emps.jpg",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\emps.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundlock.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wave_bg_header_2.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_wave_bg_header_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\list_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_control_point_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_control_point_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_purple_gradient.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bg_purple_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clover.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\clover.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bug.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bug.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sms.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\sms.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout.jpg",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\logout.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbtnmenu.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bgbtnmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgbtn.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\bgbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_wave_bg_header.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_wave_bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_lightbulb_outline_black_24dp.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_lightbulb_outline_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cerclebackgroundlogout.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\cerclebackgroundlogout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clover.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\clover.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout.jpg",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\logout.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clock.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_background.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\list_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_user_photo.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\ic_user_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_user_photo.png",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\src\\main\\res\\drawable\\ic_user_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON-23\\ViCON\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn_primary.xml",
+        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable\\bg_btn_primary.xml"
+    }
+]
