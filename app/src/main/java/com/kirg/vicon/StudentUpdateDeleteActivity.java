@@ -68,17 +68,15 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_update_delete);
         Intent intent = getIntent();
-        StudentIDEditText = (EditText) findViewById(R.id.txtstudentIDUpdate);
-        StudentNameEditText = (EditText) findViewById(R.id.txtStudentNameUpdate);
-        scontactnoEditText = (EditText) findViewById(R.id.txtscontactnoUpdate);
-        parentnameEditText = (EditText) findViewById(R.id.txtparentnameUpdate);
-        pcontactnoEditText = (EditText) findViewById(R.id.txtpcontactnoUpdate);
-        CallStudent = (EditText) findViewById(R.id.txtscontactnoUpdate);
-        CallParent = (EditText) findViewById(R.id.txtpcontactnoUpdate);
-        CallStudentButton = (Button) findViewById(R.id.btnCallStudent);
-        CallParentButton = (Button) findViewById(R.id.btnCallParent);
-        SmsStudentButton = (Button) findViewById(R.id.btnCallStudent);
-        SmsParentButton = (Button) findViewById(R.id.btnCallParent);
+        StudentIDEditText =  findViewById(R.id.txtstudentIDUpdate);
+        StudentNameEditText =  findViewById(R.id.txtStudentNameUpdate);
+        scontactnoEditText =  findViewById(R.id.txtscontactnoUpdate);
+        parentnameEditText =  findViewById(R.id.txtparentnameUpdate);
+        pcontactnoEditText =  findViewById(R.id.txtpcontactnoUpdate);
+        CallStudent =  findViewById(R.id.txtscontactnoUpdate);
+        CallParent =  findViewById(R.id.txtpcontactnoUpdate);
+        CallStudentButton =  findViewById(R.id.btnCallStudent);
+        CallParentButton =  findViewById(R.id.btnCallParent);
 
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,30 +99,30 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity {
         pcontactnoEditText.setEnabled(false);
 
         sidnumber = intent.getStringExtra(KEY_SIDNUMBER);
-        new FetchMovieDetailsAsyncTask().execute();
+        new FetchStudentDetailsAsyncTask().execute();
 
 
 
     }
-/**Phone CAll Student
- */
-private void makeStudentPhoneCall() {
-    String number = CallStudent.getText().toString();
-    if (number.trim().length() > 0) {
+    /**Phone CAll Student
+     */
+    private void makeStudentPhoneCall() {
+        String number = CallStudent.getText().toString();
+        if (number.trim().length() > 0) {
 
-        if (ContextCompat.checkSelfPermission(StudentUpdateDeleteActivity.this,
-                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(StudentUpdateDeleteActivity.this,
-                    new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            if (ContextCompat.checkSelfPermission(StudentUpdateDeleteActivity.this,
+                    Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(StudentUpdateDeleteActivity.this,
+                        new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            } else {
+                String dial = "tel:" + number;
+                startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+            }
+
         } else {
-            String dial = "tel:" + number;
-            startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+            Toast.makeText(StudentUpdateDeleteActivity.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
         }
-
-    } else {
-        Toast.makeText(StudentUpdateDeleteActivity.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
     }
-}
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -163,7 +161,7 @@ private void makeStudentPhoneCall() {
     /**
      * Fetches single movie details from the server
      */
-    private class FetchMovieDetailsAsyncTask extends AsyncTask<String, String, String> {
+    private class FetchStudentDetailsAsyncTask extends AsyncTask<String, String, String> {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
