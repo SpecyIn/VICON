@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.lzyzsd:circleprogress:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.lzyzsd/circleprogress/1.0.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.lzyzsd/circleprogress/1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c620adaec515e2def0f92067d168e99/circleprogress-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c620adaec515e2def0f92067d168e99/circleprogress-1.0.1/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lzyzsd/circleprogress/1.0.1/d2d3924acea9962ba7ee9a6389179c5d5947b2ab/circleprogress-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.lzyzsd/circleprogress/1.0.1/cf97ea19a4309fafe8b673a5ff96354d72b89024/circleprogress-1.0.1-sources.jar!/" />
     </SOURCES>

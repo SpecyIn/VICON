@@ -1,18 +1,60 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\90bf04d2afe16d38a84d049332ac417f\volley-1.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.lzyzsd:circleprogress:1.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\5c620adaec515e2def0f92067d168e99\circleprogress-1.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8516ac599c0f39cda6e75249f41fc5c3\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d280ec5d1eac08885b834bf6ffaad6a0\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\617b01740c113f7e30a40704763698d9\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\848337694e969f557867fc4c71ee4df1\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\725ae61e2a19839e936c344aee4af1f3\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\de983ce595cc890b2d4203f95c95cbc2\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\931dc0732495a48676338e3096e222d8\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1606b3689a512e702c708aeff54dc275\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\85eaf1ef5877d77ea4378ac6d21977d0\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\53a136253a346194954ba8d49e55508c\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\0053af6d543e80f2eca2dfa34c8f8cd4\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\54d979b97cccdbacfd20983c6e6fa172\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\694c26a5b2f5f971c67e70ae0fee62cd\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6686ec5f2e2ab44ae21c1eb445c99a3b\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\25f9131f098f8a4ac4a98754913f6b72\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a7f0b0af0b8bf1f81bd2e824811a5547\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\58f91a9ca0994ae02be35d76a8d8620d\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ec51a15ecdd6ac6bc414bac2bbd5ef52\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f2e189d9c9c6a4d1eca5e283d6c960d7\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f8071bc478da969c504fd95a5be6aaf8\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\aeb7294d6d68d8c7eedcd7bf25b6a920\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ade294bed9caf3f29b70e263efe27c86\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b550f02102518269b5ae49ce098d1bbd\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ecf2828b954b598dde19702f30d5ac54\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a0712c74e2562104cfa1829d4f9a06a2\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\780607b29fa9b8b916b13db491ef41f2\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\178d52fd0f4d875d0c412c649f532470\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d8ef00b68490a45f49fd0664d6982489\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
@@ -55,31 +97,28 @@ ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:13:5-18
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:14:9-34
 application
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:20:5-40:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\3.0.1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.volley\volley\1.1.0\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:24:5-28:19
-	android:label
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:23:9-41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\90bf04d2afe16d38a84d049332ac417f\volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\90bf04d2afe16d38a84d049332ac417f\volley-1.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ec51a15ecdd6ac6bc414bac2bbd5ef52\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ec51a15ecdd6ac6bc414bac2bbd5ef52\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:24:9-35
-	android:allowBackup
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:23:9-41
 	android:icon
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:25:9-40
 activity#com.kirg.vicon.LoginActivity
@@ -102,7 +141,7 @@ activity#com.kirg.vicon.preload
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:30:9-36:20
 	android:name
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:30:19-42
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:32:17-69
@@ -126,53 +165,83 @@ ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-56
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-53
 uses-sdk
 INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\3.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.volley\volley\1.1.0\AndroidManifest.xml:7:5-43
-MERGED from [com.github.lzyzsd:circleprogress:1.0.1] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.github.lzyzsd\circleprogress\1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:20:5-22:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\AndroidManifest.xml:23:9-59
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\90bf04d2afe16d38a84d049332ac417f\volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\90bf04d2afe16d38a84d049332ac417f\volley-1.1.0\AndroidManifest.xml:7:5-43
+MERGED from [com.github.lzyzsd:circleprogress:1.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\5c620adaec515e2def0f92067d168e99\circleprogress-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lzyzsd:circleprogress:1.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\5c620adaec515e2def0f92067d168e99\circleprogress-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8516ac599c0f39cda6e75249f41fc5c3\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8516ac599c0f39cda6e75249f41fc5c3\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d280ec5d1eac08885b834bf6ffaad6a0\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d280ec5d1eac08885b834bf6ffaad6a0\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\617b01740c113f7e30a40704763698d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\617b01740c113f7e30a40704763698d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\848337694e969f557867fc4c71ee4df1\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\848337694e969f557867fc4c71ee4df1\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\725ae61e2a19839e936c344aee4af1f3\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\725ae61e2a19839e936c344aee4af1f3\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\de983ce595cc890b2d4203f95c95cbc2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\de983ce595cc890b2d4203f95c95cbc2\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\931dc0732495a48676338e3096e222d8\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\931dc0732495a48676338e3096e222d8\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1606b3689a512e702c708aeff54dc275\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1606b3689a512e702c708aeff54dc275\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\85eaf1ef5877d77ea4378ac6d21977d0\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\85eaf1ef5877d77ea4378ac6d21977d0\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\53a136253a346194954ba8d49e55508c\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\53a136253a346194954ba8d49e55508c\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\0053af6d543e80f2eca2dfa34c8f8cd4\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\0053af6d543e80f2eca2dfa34c8f8cd4\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\54d979b97cccdbacfd20983c6e6fa172\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\54d979b97cccdbacfd20983c6e6fa172\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\694c26a5b2f5f971c67e70ae0fee62cd\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\694c26a5b2f5f971c67e70ae0fee62cd\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6686ec5f2e2ab44ae21c1eb445c99a3b\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6686ec5f2e2ab44ae21c1eb445c99a3b\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\25f9131f098f8a4ac4a98754913f6b72\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\25f9131f098f8a4ac4a98754913f6b72\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a7f0b0af0b8bf1f81bd2e824811a5547\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a7f0b0af0b8bf1f81bd2e824811a5547\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\58f91a9ca0994ae02be35d76a8d8620d\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\58f91a9ca0994ae02be35d76a8d8620d\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ec51a15ecdd6ac6bc414bac2bbd5ef52\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ec51a15ecdd6ac6bc414bac2bbd5ef52\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f2e189d9c9c6a4d1eca5e283d6c960d7\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f2e189d9c9c6a4d1eca5e283d6c960d7\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f8071bc478da969c504fd95a5be6aaf8\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\f8071bc478da969c504fd95a5be6aaf8\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\aeb7294d6d68d8c7eedcd7bf25b6a920\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\aeb7294d6d68d8c7eedcd7bf25b6a920\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ade294bed9caf3f29b70e263efe27c86\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ade294bed9caf3f29b70e263efe27c86\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b550f02102518269b5ae49ce098d1bbd\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b550f02102518269b5ae49ce098d1bbd\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ecf2828b954b598dde19702f30d5ac54\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ecf2828b954b598dde19702f30d5ac54\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a0712c74e2562104cfa1829d4f9a06a2\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a0712c74e2562104cfa1829d4f9a06a2\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\780607b29fa9b8b916b13db491ef41f2\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\780607b29fa9b8b916b13db491ef41f2\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\178d52fd0f4d875d0c412c649f532470\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\178d52fd0f4d875d0c412c649f532470\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d8ef00b68490a45f49fd0664d6982489\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d8ef00b68490a45f49fd0664d6982489\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:design:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\26.1.0\AndroidManifest.xml:25:13-35
-	android:name
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\26.1.0\AndroidManifest.xml:24:13-51
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Shiva\Desktop\ViCON\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:26:13-58
