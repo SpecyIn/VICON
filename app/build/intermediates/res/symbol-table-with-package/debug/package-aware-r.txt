@@ -1116,6 +1116,7 @@ drawable emps
 drawable group10
 drawable group11
 drawable group12
+drawable ic_add_black_24dp
 drawable ic_attach_file_black_24dp
 drawable ic_attach_money_black_24dp
 drawable ic_control_point_black_24dp
@@ -1134,6 +1135,7 @@ drawable ill_music
 drawable isearch
 drawable list_background
 drawable logout
+drawable logowithtext
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1161,7 +1163,6 @@ id ALT
 id CTRL
 id ChangePassword
 id FUNCTION
-id GetStarted
 id Logout
 id META
 id SHIFT
@@ -1262,6 +1263,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView8
 id info
 id invisible
 id italic
