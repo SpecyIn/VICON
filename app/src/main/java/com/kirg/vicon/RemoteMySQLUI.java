@@ -41,7 +41,6 @@ public class RemoteMySQLUI extends AppCompatActivity {
         LinearLayout addNewBtn = findViewById(R.id.addNewBtn);
         LinearLayout Logout = findViewById(R.id.Logout);
 
-
         viewAllBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -102,24 +101,19 @@ public class RemoteMySQLUI extends AppCompatActivity {
             }
         });
 
+
+
         addNewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Check for network connectivity
-                if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
-                    Intent i = new Intent(getApplicationContext(),
-                            RegisterActivity.class);
-                    startActivity(i);
-                } else {
-                    //Display error message if not connected to internet
-                    Toast.makeText(RemoteMySQLUI.this,
-                            "Unable to connect to internet",
-                            Toast.LENGTH_LONG).show();
-
-                }
+                Uri uri = Uri.parse("https://kirg.specy.in/NEW_VICON/UPLOAD_SPECYIN/sjdvnIN28NS.php"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
 
             }
         });
+
 
     }
 }

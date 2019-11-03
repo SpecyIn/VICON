@@ -1,6 +1,7 @@
 package com.kirg.vicon;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,10 +16,10 @@ public class RemoteMySQLActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_remote_my_sql);
-        Button viewAllBtn = (Button) findViewById(R.id.viewAllBtn);
-        Button addNewBtn = (Button) findViewById(R.id.addNewBtn);
-        Button Logout = (Button) findViewById(R.id.Logout);
-        Button UIS = (Button) findViewById(R.id.UI);
+        Button viewAllBtn =  findViewById(R.id.viewAllBtn);
+        Button addNewBtn =  findViewById(R.id.addNewBtn);
+        Button Logout =  findViewById(R.id.Logout);
+        Button UIS =  findViewById(R.id.UI);
 
         viewAllBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,21 +69,14 @@ public class RemoteMySQLActivity extends AppCompatActivity {
             }
         });
 
+
         addNewBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Check for network connectivity
-                if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
-                    Intent i = new Intent(getApplicationContext(),
-                            RegisterActivity.class);
-                    startActivity(i);
-                } else {
-                    //Display error message if not connected to internet
-                    Toast.makeText(RemoteMySQLActivity.this,
-                            "Unable to connect to internet",
-                            Toast.LENGTH_LONG).show();
-
-                }
+                Uri uri = Uri.parse("https://kirg.specy.in/NEW_VICON/UPLOAD_SPECYIN/sjdvnIN28NS.php"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
 
             }
         });

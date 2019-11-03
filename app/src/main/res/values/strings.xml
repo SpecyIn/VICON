@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Vi CON</string>
+    <string name="app_name">ViCON</string>
     <string name="view_all">Search For Student</string>
     <string name="add_new">Add New Student</string>
     <string name="title_activity_student_update_delete">StudentUpdateDeleteActivity</string>
