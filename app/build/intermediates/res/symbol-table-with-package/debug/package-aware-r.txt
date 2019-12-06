@@ -1152,7 +1152,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable omgkirg
 drawable person
 drawable proet
 drawable sms
@@ -1243,6 +1242,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id father_name
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1355,6 +1355,7 @@ id studentList
 id studentname
 id submenuarrow
 id submit_area
+id submit_btn
 id subtitle_header
 id tabMode
 id tag_transition_group
@@ -1383,16 +1384,16 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_father_pno
+id tv_student_id
+id tv_student_name
+id tv_student_pno
 id txtStudentNameAdd
-id txtStudentNameUpdate
 id txtparentnameAdd
-id txtparentnameUpdate
 id txtpcontactnoAdd
-id txtpcontactnoUpdate
 id txtscontactnoAdd
-id txtscontactnoUpdate
 id txtsidnumberAdd
-id txtstudentIDUpdate
+id uname
 id uniform
 id unlabeled
 id up

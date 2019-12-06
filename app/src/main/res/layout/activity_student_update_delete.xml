@@ -3,25 +3,51 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="15dp">
+
     <LinearLayout
+
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:paddingLeft="10sp">
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="17R01A05D5"
+            android:layout_weight="0.50"
+            android:drawableLeft="@drawable/isearch"
+            android:inputType="textPersonName"/>
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Search"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="10sp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
+            android:layout_weight="0.45"
             android:text="@string/sidnumber" />
-        <EditText
+        <TextView
             android:layout_width="0dp"
-            android:id="@+id/txtstudentIDUpdate"
+            android:id="@+id/tv_student_id"
             android:layout_height="wrap_content"
-            android:layout_weight="0.75"
+            android:layout_weight="0.65"
             android:ems="10"
             android:textColor="@color/colorPrimary"
             />
@@ -30,19 +56,20 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
             android:paddingLeft="10sp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.25"
+                android:layout_weight="0.45"
                 android:text="@string/studentname" />
 
-            <EditText
+            <TextView
                 android:layout_width="0dp"
-                android:id="@+id/txtStudentNameUpdate"
+                android:id="@+id/tv_student_name"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.75"
+                android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
 
@@ -52,19 +79,20 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
             android:paddingLeft="10sp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.25"
+                android:layout_weight="0.45"
                 android:text="@string/scontactno" />
 
-            <EditText
+            <TextView
                 android:layout_width="0dp"
-                android:id="@+id/txtscontactnoUpdate"
+                android:id="@+id/tv_student_pno"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.75"
+                android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
         </LinearLayout>
@@ -72,20 +100,21 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:orientation="horizontal"
             android:paddingLeft="10sp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.25"
+                android:layout_weight="0.45"
                 android:text="@string/parentname" />
 
-            <EditText
-                android:id="@+id/txtparentnameUpdate"
+            <TextView
+                android:id="@+id/father_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.75"
+                android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
         </LinearLayout>
@@ -94,21 +123,22 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
             android:paddingLeft="10sp">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="0.25"
+                android:layout_weight="0.45"
                 android:text="@string/pcontactno" />
 
 
-            <EditText
-                android:id="@+id/txtpcontactnoUpdate"
+            <TextView
+                android:id="@+id/tv_father_pno"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.75"
+                android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"
                 />

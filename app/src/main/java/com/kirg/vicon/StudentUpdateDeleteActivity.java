@@ -1,7 +1,8 @@
 package com.kirg.vicon;
 
-import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.Manifest;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.annotation.NonNull;
@@ -11,70 +12,45 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
-import android.app.ProgressDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-import android.app.AlertDialog;
-
-import com.kirg.vicon.helper.CheckNetworkStatus;
-import com.kirg.vicon.helper.HttpJsonParser;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.HashMap;
 import java.util.Map;
+import android.widget.TextView;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 
-public class StudentUpdateDeleteActivity extends AppCompatActivity {
-    private static String STRING_EMPTY = "";
-    private static final String KEY_SUCCESS = "success";
-    private static final String KEY_SIDNUMBER = "sidnumber";
-    private static final String KEY_DATA = "data";
-    private static final String KEY_STUDENTNAME = "studentname";
-    private static final String KEY_SCONTACTNO = "scontactno";
-    private static final String KEY_PARENTNAME = "parentname";
-    private static final String KEY_PCONTACTNO = "pcontactno";
-    private static final String BASE_URL = "https://kirg.specy.in/NEW_VICON/";
-    private String sidnumber;
-    private EditText StudentIDEditText;
-    private EditText StudentNameEditText;
-    private EditText scontactnoEditText;
-    private EditText parentnameEditText;
-    private EditText pcontactnoEditText;
-    private String studentname;
-    private String scontactno;
-    private String parentname;
-    private String pcontactno;
-    private ProgressDialog pDialog;
-    private static int REQUEST_CALL = 1;
-    private EditText CallStudent;
-    private EditText CallParent;
+public class StudentUpdateDeleteActivity extends AppCompatActivity implements View.OnClickListener {
+    Button btn;
+    EditText uname;
+    TextView father_name,student_name,student_no,father_no,student_id;
     private Button CallStudentButton;
     private Button CallParentButton;
-    private Button SmsStudentButton;
-    private Button SmsParentButton;
+    private TextView CallStudent;
+    private static int REQUEST_CALL = 1;
+    private TextView CallParent;
+    private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/test2.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_update_delete);
-        Intent intent = getIntent();
-        StudentIDEditText =  findViewById(R.id.txtstudentIDUpdate);
-        StudentNameEditText =  findViewById(R.id.txtStudentNameUpdate);
-        scontactnoEditText =  findViewById(R.id.txtscontactnoUpdate);
-        parentnameEditText =  findViewById(R.id.txtparentnameUpdate);
-        pcontactnoEditText =  findViewById(R.id.txtpcontactnoUpdate);
-        CallStudent =  findViewById(R.id.txtscontactnoUpdate);
-        CallParent =  findViewById(R.id.txtpcontactnoUpdate);
+        btn = findViewById(R.id.submit_btn);
+        uname =  findViewById(R.id.uname);
+        student_id= findViewById(R.id.tv_student_id);
+        student_name=findViewById(R.id.tv_student_name);
+        student_no=findViewById(R.id.tv_student_pno);
+        father_no=findViewById(R.id.tv_father_pno) ;
+        father_name=findViewById(R.id.father_name);
+        btn.setOnClickListener(this);
+        CallStudent =findViewById(R.id.tv_student_pno);
+        CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton =  findViewById(R.id.btnCallStudent);
         CallParentButton =  findViewById(R.id.btnCallParent);
 
@@ -91,18 +67,6 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity {
                 makeParentPhoneCall();
             }
         });
-
-        StudentIDEditText.setEnabled(false);
-        StudentNameEditText.setEnabled(false);
-        parentnameEditText.setEnabled(false);
-        scontactnoEditText.setEnabled(false);
-        pcontactnoEditText.setEnabled(false);
-
-        sidnumber = intent.getStringExtra(KEY_SIDNUMBER);
-        new FetchStudentDetailsAsyncTask().execute();
-
-
-
     }
     /**Phone CAll Student
      */
@@ -155,63 +119,75 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.submit_btn:
+                final String stu_id=uname.getText().toString();
+                StringRequest stringRequest = new StringRequest(Request.Method.POST,
+                        ROOT_URL, new Response.Listener<String>() {
+
+                    @Override
+                    public void onResponse(String response) {
 
 
+                        try {
+                            JSONObject jObj = new JSONObject(response);
+                            boolean error = jObj.getBoolean("error");
 
-    /**
-     * Fetches single movie details from the server
-     */
-    private class FetchStudentDetailsAsyncTask extends AsyncTask<String, String, String> {
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            //Display progress bar
-            pDialog = new ProgressDialog(StudentUpdateDeleteActivity.this);
-            pDialog.setMessage("Loading Student Details. Please wait...");
-            pDialog.setIndeterminate(false);
-            pDialog.setCancelable(false);
-            pDialog.show();
-        }
+                            if (!error) {
+                                String name=jObj.getString("studentname");
+                                String sidnumber=jObj.getString("sidnumber");
+                                String message = jObj.getString("message");
+                                Toast.makeText(getApplicationContext(),message, Toast.LENGTH_LONG).show();
+                                String student_pno=jObj.getString("scontactno");
+                                String f_name=jObj.getString("parentname");
+                                String father_pno=jObj.getString("pcontactno");
+                                student_id.setText(""+sidnumber);
+                                student_name.setText(""+name);
+                                student_no.setText(""+student_pno);
+                                father_name.setText(""+f_name);
+                                father_no.setText(""+father_pno);
 
-        @Override
-        protected String doInBackground(String... params) {
-            HttpJsonParser httpJsonParser = new HttpJsonParser();
-            Map<String, String> httpParams = new HashMap<>();
-            httpParams.put(KEY_SIDNUMBER, sidnumber);
-            JSONObject jsonObject = httpJsonParser.makeHttpRequest(
-                    BASE_URL + "get_student_details.php", "GET", httpParams);
-            try {
-                int success = jsonObject.getInt(KEY_SUCCESS);
-                JSONObject movie;
-                if (success == 1) {
-                    //Parse the JSON response
-                    movie = jsonObject.getJSONObject(KEY_DATA);
-                    studentname = movie.getString(KEY_STUDENTNAME);
-                    scontactno = movie.getString(KEY_SCONTACTNO);
-                    parentname = movie.getString(KEY_PARENTNAME);
-                    pcontactno = movie.getString(KEY_PCONTACTNO);
-                }
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
 
-        protected void onPostExecute(String result) {
-            pDialog.dismiss();
-            runOnUiThread(new Runnable() {
-                public void run() {
-                    //Populate the Edit Texts once the network activity is finished executing
-                    StudentIDEditText.setText(sidnumber);
-                    StudentNameEditText.setText(studentname);
-                    scontactnoEditText.setText(scontactno);
-                    parentnameEditText.setText(parentname);
-                    pcontactnoEditText.setText(pcontactno);
+                            } else {
 
-                }
-            });
+                                String errorMsg = jObj.getString("message");
+                                Toast.makeText(getApplicationContext(),
+                                        "ID Number Not Found!", Toast.LENGTH_LONG).show();
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                        Toast.makeText(getApplicationContext(),"Something  went wrong",Toast.LENGTH_LONG).show();
+
+
+                    }
+                }) {
+                    @Override
+                    protected Map<String, String> getParams() {
+                        // Posting params to register url
+                        Map<String, String> params = new HashMap<String, String>();
+                        params.put("sidnumber",stu_id);
+
+
+                        return params;
+                    }
+                };
+                RequestQueue requestQueue = Volley.newRequestQueue(this);
+                requestQueue.add(stringRequest);
+                break;
         }
 
 
     }
 }
+
+
