@@ -34,6 +34,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.kirg.vicon.DeleteFaculty" />
         <activity android:name="com.kirg.vicon.LoginActivity" />
         <activity android:name="com.kirg.vicon.RemoteMySQLUI" />
         <activity android:name="com.kirg.vicon.RegisterActivity" />

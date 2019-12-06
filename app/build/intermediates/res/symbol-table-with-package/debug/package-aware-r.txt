@@ -1205,6 +1205,7 @@ id bottom
 id btnAdd
 id btnCallParent
 id btnCallStudent
+id btn_delete
 id btn_link_back
 id btn_login
 id btn_signup
@@ -1226,6 +1227,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id delete_id
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1453,6 +1455,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_student
+layout activity_delete_faculty
 layout activity_login
 layout activity_preload
 layout activity_register
