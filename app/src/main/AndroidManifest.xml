@@ -30,7 +30,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RemoteMySQLUI" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".RemoteMySQLActivity" />
         <activity android:name=".preload">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,9 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StudentListingActivity" />
         <activity android:name=".StudentUpdateDeleteActivity" />
-        <activity android:name=".AddStudentActivity" />
     </application>
 
 </manifest>

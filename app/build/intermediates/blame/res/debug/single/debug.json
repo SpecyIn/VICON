@@ -936,10 +936,6 @@
         "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable-hdpi\\group11.png"
     },
     {
-        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_remote_my_sql.xml.flat",
-        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\layout\\activity_remote_my_sql.xml"
-    },
-    {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\8516ac599c0f39cda6e75249f41fc5c3\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -1648,10 +1644,6 @@
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\8516ac599c0f39cda6e75249f41fc5c3\\appcompat-v7-28.0.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_student.xml.flat",
-        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\layout\\activity_add_student.xml"
-    },
-    {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_background.png.flat",
         "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\drawable-xxxhdpi\\background.png"
     },
@@ -1920,10 +1912,6 @@
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\8516ac599c0f39cda6e75249f41fc5c3\\appcompat-v7-28.0.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\ccf94a4f227dfa4f17156620e28a8b98\\support-compat-28.0.0\\res\\layout-v21\\notification_action.xml"
     },
@@ -2046,10 +2034,6 @@
     {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\8516ac599c0f39cda6e75249f41fc5c3\\appcompat-v7-28.0.0\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_student_listing.xml.flat",
-        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\layout\\activity_student_listing.xml"
     },
     {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",

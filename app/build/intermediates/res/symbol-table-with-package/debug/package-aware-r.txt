@@ -1166,8 +1166,6 @@ id Logout
 id META
 id SHIFT
 id SYM
-id UI
-id Update
 id aboutus
 id action_bar
 id action_bar_activity_content
@@ -1188,8 +1186,6 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id activity_movie_listing
-id activity_remote_my_sql
 id add
 id addNewBtn
 id alertTitle
@@ -1202,7 +1198,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btnAdd
 id btnCallParent
 id btnCallStudent
 id btn_delete
@@ -1237,7 +1232,6 @@ id dimensions
 id direct
 id disableHome
 id edit_query
-id edittext1
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1333,7 +1327,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id sidnumber
 id signup_input_age
 id signup_input_email
 id signup_input_name
@@ -1353,8 +1346,6 @@ id src_over
 id standard
 id start
 id stretch
-id studentList
-id studentname
 id submenuarrow
 id submit_area
 id submit_btn
@@ -1390,11 +1381,6 @@ id tv_father_pno
 id tv_student_id
 id tv_student_name
 id tv_student_pno
-id txtStudentNameAdd
-id txtparentnameAdd
-id txtpcontactnoAdd
-id txtscontactnoAdd
-id txtsidnumberAdd
 id uname
 id uniform
 id unlabeled
@@ -1454,14 +1440,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_add_student
 layout activity_delete_faculty
 layout activity_login
 layout activity_preload
 layout activity_register
-layout activity_remote_my_sql
 layout activity_remote_my_sqlui
-layout activity_student_listing
 layout activity_student_update_delete
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1477,7 +1460,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout list_item
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
