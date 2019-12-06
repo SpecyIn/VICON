@@ -51,12 +51,12 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int ic_launcher = 0x7f07008a;
+        public static final int ic_launcher = 0x7f070087;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0d0031;
+        public static final int app_name = 0x7f0e0031;
     }
     public static final class styleable {
         private styleable() {}

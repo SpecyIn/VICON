@@ -23,8 +23,8 @@
     <color name="btn_login_bg">#eceef1</color>
     <color name="lbl_name">#333333</color>
     <color name="btn_logut_bg">#ff6861</color>
-    <color name="colorPrimaryDarkpreload">#431B3F</color>
-    <color name="colorone_dashboard">#431B3F</color>
+    <color name="colorPrimaryDarkpreload">#FF5722</color>
+    <color name="colorone_dashboard">#FF5722</color>
     <color name="colorPrimary1">#FFC107</color>
     <color name="colorPrimaryDark1">#FFA000</color>
     <color name="backgroundcolor">#fcfcfc</color>
@@ -32,6 +32,12 @@
     <color name="deeppurple">#7c4dff</color>
     <color name="yello">#ffb300</color>
     <color name="green">#00bfa5</color>
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <color name="tab_indicator_gray">#707070</color>
+    <color name="intro_title_color">#000000</color>
     <color name="colorAccent1">#FF4081</color>
     <color name="darkblue">#23283a</color>
     <color name="testcolorblue">#152b38</color>
