@@ -9,6 +9,10 @@
     <color name ="bg_login">#FAF9F7</color>
     <color name="bg_register">#2e3237</color>
     <color name="bg_main">#428bca</color>
+    <color name="primearyDark">#292b3d</color>
+    <color name="startblue">#246FF1</color>
+    <color name="graylight">#fafafa</color>
+    <color name="endblue">#E91E65</color>
     <color name="input_login">#222222</color>
     <color name="input_login_hint">#999999</color>
     <color name="lock">#8B3ED8</color>

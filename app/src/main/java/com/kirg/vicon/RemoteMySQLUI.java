@@ -37,6 +37,7 @@ public class RemoteMySQLUI extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_remote_my_sqlui);
         LinearLayout btn_signup = findViewById(R.id.btn_signup);
+        LinearLayout btn_aboutus = findViewById(R.id.aboutus);
         LinearLayout viewAllBtn = findViewById(R.id.viewAllBtn);
         LinearLayout addNewBtn = findViewById(R.id.addNewBtn);
         LinearLayout Logout = findViewById(R.id.Logout);
@@ -68,6 +69,25 @@ public class RemoteMySQLUI extends AppCompatActivity {
                 if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
                     Intent i = new Intent(getApplicationContext(),
                             DeleteFaculty.class);
+                    startActivity(i);
+                } else {
+                    //Display error message if not connected to internet
+                    Toast.makeText(RemoteMySQLUI.this,
+                            "Unable to connect to internet",
+                            Toast.LENGTH_LONG).show();
+
+                }
+
+            }
+        });
+
+        btn_aboutus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Check for network connectivity
+                if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
+                    Intent i = new Intent(getApplicationContext(),
+                            Shivaram.class);
                     startActivity(i);
                 } else {
                     //Display error message if not connected to internet

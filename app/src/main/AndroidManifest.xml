@@ -26,7 +26,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".DeleteFaculty"></activity>
+        <activity android:name=".Shivaram"></activity>
+        <activity android:name=".DeleteFaculty" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RemoteMySQLUI" />
         <activity android:name=".RegisterActivity" />
