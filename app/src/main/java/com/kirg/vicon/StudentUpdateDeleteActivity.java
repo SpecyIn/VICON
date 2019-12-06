@@ -11,6 +11,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.Button;
@@ -36,6 +38,12 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity implements Vi
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
     private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/test2.php";
+
+    public static final String[] IDNUMBERS = new String[]{
+            "17R01A0","18R01A0","19R01A0"
+    };
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +75,16 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity implements Vi
                 makeParentPhoneCall();
             }
         });
+
+        /** THis is Auto Text **/
+        AutoCompleteTextView editText= findViewById(R.id.uname);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,IDNUMBERS);
+        editText.setAdapter(adapter);
+
+
+
+
     }
     /**Phone CAll Student
      */
