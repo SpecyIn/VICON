@@ -1154,7 +1154,6 @@ drawable indicator_selected
 drawable indicator_selector
 drawable isearch
 drawable list_background
-drawable logo
 drawable logout
 drawable logowithtext
 drawable mtrl_snackbar_background
