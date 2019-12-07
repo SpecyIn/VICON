@@ -11,6 +11,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
@@ -34,13 +37,11 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
     EditText uname;
     TextView father_name,student_name,student_no,father_no,student_id;
     private Button CallStudentButton;
-    private ImageView mImageView;
-    private Button mBtLoadImage;
     private Button CallParentButton;
     private TextView CallStudent;
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
-    private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/test2.php";
+    private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/SearchUI.php";
     public static final String[] IDNUMBERS = new String[]{
             "17R01A0","18R01A0","19R01A0"
     };
@@ -61,32 +62,28 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton = findViewById(R.id.btnCallStudent);
         CallParentButton = findViewById(R.id.btnCallParent);
-
-
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 makeStudentPhoneCall();
             }
         });
-
         CallParentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 makeParentPhoneCall();
             }
         });
-
         /** THis is Auto Text **/
         AutoCompleteTextView editText= findViewById(R.id.uname);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,IDNUMBERS);
         editText.setAdapter(adapter);
-
-
-
+        /** THIS IS WEB VIEW **/
 
     }
+
+    /** WEBVIEW **/
     /**Phone CAll Student
      */
     private void makeStudentPhoneCall() {

@@ -1254,6 +1254,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jahnavili
 id janakili
+id kirg
 id kirgspecy
 id labeled
 id largeLabel

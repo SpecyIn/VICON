@@ -35,7 +35,8 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
         <activity android:name="com.kirg.vicon.SearchUI" />
         <activity android:name="com.kirg.vicon.Shivaram" />
         <activity android:name="com.kirg.vicon.DeleteFaculty" />
