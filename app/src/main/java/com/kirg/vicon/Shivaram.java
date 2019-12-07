@@ -94,7 +94,7 @@ public class Shivaram extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Check for network connectivity
-                Uri uri = Uri.parse("https://www.linkedin.com/in/mellacheruvu-janakiram-a1bbbb178/"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("https://www.linkedin.com/in/jahanavi-sanda-170562199"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
 

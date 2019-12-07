@@ -18,6 +18,8 @@ import android.widget.Toast;
 import android.widget.Button;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
+
 import java.util.HashMap;
 import java.util.Map;
 import android.widget.TextView;
@@ -30,6 +32,7 @@ import com.android.volley.toolbox.Volley;
 
 public class DeleteFaculty extends AppCompatActivity implements View.OnClickListener {
     Button btn_delete;
+    private TextView btngoback;
     TextView delete_id;
     private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/deletefrom.php";
 
@@ -40,6 +43,17 @@ public class DeleteFaculty extends AppCompatActivity implements View.OnClickList
         btn_delete = findViewById(R.id.btn_delete);
         delete_id= findViewById(R.id.delete_id);
         btn_delete.setOnClickListener(this);
+        btngoback= findViewById(R.id.btn_link_back);
+        btngoback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),
+                        RemoteMySQLUI.class);
+                startActivity(i);
+
+            }
+        });
+
     }
 
     @Override

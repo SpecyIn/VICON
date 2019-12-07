@@ -1360,8 +1360,8 @@ id icon_group
 id ifRoom
 id image
 id imageView
-id imageView2
 id imageView3
+id imageView4
 id imageView8
 id info
 id invisible
@@ -1472,6 +1472,8 @@ id textSpacerNoTitle
 id textStart
 id textView
 id textView2
+id textView3
+id textView5
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
