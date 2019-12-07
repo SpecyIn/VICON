@@ -21,6 +21,8 @@
             android:id="@+id/uname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="10"
             android:ems="10"
             android:hint="17R01A05D5"
             android:layout_weight="0.50"

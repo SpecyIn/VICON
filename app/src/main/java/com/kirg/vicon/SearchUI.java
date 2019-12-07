@@ -41,7 +41,6 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
     private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/test2.php";
-    private static final String IMAGE_URL = "https://cmritautonomous.org/beeserp/images/photo/17r01a0501.jpg";
     public static final String[] IDNUMBERS = new String[]{
             "17R01A0","18R01A0","19R01A0"
     };
