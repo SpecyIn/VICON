@@ -13,6 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
             android:orientation="horizontal"
             android:textSize="32dp"
             android:paddingLeft="10sp">
@@ -29,6 +30,7 @@
                 android:id="@+id/submit_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_marginBottom="15dp"
                 android:text="Search"/>
 
@@ -41,12 +43,14 @@
             android:paddingLeft="10sp">
         <TextView
             android:layout_width="0dp"
+            android:fontFamily="@font/roboto_bold"
             android:layout_height="wrap_content"
             android:layout_weight="0.45"
             android:text="@string/sidnumber" />
         <TextView
             android:layout_width="0dp"
             android:id="@+id/tv_student_id"
+            android:fontFamily="@font/roboto_bold"
             android:layout_height="wrap_content"
             android:layout_weight="0.65"
             android:ems="10"
@@ -63,6 +67,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.45"
                 android:text="@string/studentname" />
 
@@ -70,6 +75,7 @@
                 android:layout_width="0dp"
                 android:id="@+id/tv_student_name"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
@@ -86,6 +92,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.45"
                 android:text="@string/scontactno" />
 
@@ -93,6 +100,7 @@
                 android:layout_width="0dp"
                 android:id="@+id/tv_student_pno"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
@@ -108,6 +116,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.45"
                 android:text="@string/parentname" />
 
@@ -115,6 +124,7 @@
                 android:id="@+id/father_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_weight="0.65"
                 android:ems="10"
                 android:textColor="@color/colorPrimary"/>
@@ -130,6 +140,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="0.45"
                 android:text="@string/pcontactno" />
@@ -138,6 +149,7 @@
             <TextView
                 android:id="@+id/tv_father_pno"
                 android:layout_width="0dp"
+                android:fontFamily="@font/roboto_bold"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.65"
                 android:ems="10"
@@ -151,6 +163,7 @@
 
     <Button
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
         android:layout_width="wrap_content"
         android:text="@string/CallStudent"
         android:layout_weight="0.50"
@@ -159,6 +172,7 @@
 
         <Button
             android:id="@+id/btnCallParent"
+            android:fontFamily="@font/roboto_bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.50"
