@@ -111,6 +111,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/shivaramli"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -135,6 +136,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/specyin"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="8dp"
@@ -209,7 +211,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_bold"
-                        android:text="M JanakiRam"
+                        android:text="M Janakiram"
                         android:textColor="#FF9800"
                         android:textSize="24dp" />
 
@@ -242,6 +244,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/janakili"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -338,6 +341,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/shreyali"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -430,6 +434,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/saikiranli"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -526,6 +531,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/bhavanali"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -619,6 +625,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/jahnavili"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
@@ -711,6 +718,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_alignParentRight="true"
+                                android:id="@+id/amulli"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="15dp"
                                 android:src="@drawable/linkedinlogo" />
@@ -734,6 +742,7 @@
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
+                                android:id="@+id/luma"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginLeft="8dp"
