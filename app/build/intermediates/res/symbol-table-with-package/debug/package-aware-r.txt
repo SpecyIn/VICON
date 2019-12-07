@@ -1107,6 +1107,7 @@ drawable cerclebackgroundlogout
 drawable cerclebackgroundpink
 drawable cerclebackgroundpurple
 drawable cerclebackgroundyello
+drawable comment
 drawable desig
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1114,6 +1115,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable food1
+drawable food2
+drawable food3
 drawable gradientbackground
 drawable ic_add_black_24dp
 drawable ic_attach_file_black_24dp
@@ -1141,6 +1145,7 @@ drawable indicator_default
 drawable indicator_selected
 drawable indicator_selector
 drawable isearch
+drawable like
 drawable list_background
 drawable logout
 drawable logowithtext
@@ -1161,13 +1166,20 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable person
+drawable rate
+drawable share
 drawable shivaram
 drawable sms
+drawable split
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twomgkirg
 font nunito_sans_black
 font nunito_sans_semibold
+font roboto_black
+font roboto_bold
+font roboto_bolditalic
+font roboto_regular
 id ALT
 id CTRL
 id ChangePassword
