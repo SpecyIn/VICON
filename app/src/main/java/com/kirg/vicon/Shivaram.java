@@ -1,6 +1,7 @@
 package com.kirg.vicon;
 
 import android.content.Intent;
+import android.media.Image;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ public class Shivaram extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shivaram);
-
+        ImageView kirgspecy = findViewById(R.id.kirgspecy);
         ImageView shivaramli =findViewById(R.id.shivaramli);
         ImageView specyin =findViewById(R.id.specyin);
         ImageView janakili =findViewById(R.id.janakili);
@@ -30,6 +31,17 @@ public class Shivaram extends AppCompatActivity {
             public void onClick(View view) {
                 //Check for network connectivity
                 Uri uri = Uri.parse("https://www.linkedin.com/in/shivaramjimada/"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+
+            }
+        });
+
+        kirgspecy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Check for network connectivity
+                Uri uri = Uri.parse("https://kirg.specy.in"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
 

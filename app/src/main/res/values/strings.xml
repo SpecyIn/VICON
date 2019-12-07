@@ -25,6 +25,7 @@
     <string name="UpdateStudent">UPDATE STUDENT DATA</string>
     <string name="UI">New UI</string>
     <string name="btn_sign_up">Register !!</string>
+    <string name="aboutkirg">The Kirg Technologies is a young technical startup initiated by the students of CMRIT who are a diverse group entrepreneurial people working together to create a better way,pioneering in the fields of Artificial Intelligence,Web Designing and Development, Mobile Application Development. The Kirg Technologies is a next-generation technology company that helps enterprises re-imagine their businesses for the digital age. At KIRG,passion and innovation is not just another word, it’s part of our organizational heritage,providing the Best-of-breed technology solutions.For more Information Check Our Website.</string>
     <string name="err_msg_name">Please enter a Name</string>
     <string name="err_msg_required">Valid Input Required</string>
     <string name="err_msg_email">Please enter a Valid Email</string>

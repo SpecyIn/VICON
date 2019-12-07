@@ -7,6 +7,7 @@ INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\008c8b69eef145b955d4d9e9784aa5e4\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b29a5c06094982a5dad2191fcb65d7e1\volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6a5b8ed1bb0604ae585ea05829a14823\library-1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8516ac599c0f39cda6e75249f41fc5c3\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\d280ec5d1eac08885b834bf6ffaad6a0\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -178,6 +179,8 @@ MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6b69874ef807b9e0b51cd9c1a85aa2af\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b29a5c06094982a5dad2191fcb65d7e1\volley-1.1.1\AndroidManifest.xml:7:5-43
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b29a5c06094982a5dad2191fcb65d7e1\volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6a5b8ed1bb0604ae585ea05829a14823\library-1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6a5b8ed1bb0604ae585ea05829a14823\library-1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ee6fb8e66367e34fe8c81c33f7c65284\design-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8516ac599c0f39cda6e75249f41fc5c3\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
