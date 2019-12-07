@@ -22,13 +22,14 @@
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:hardwareAccelerated="true"
-        android:largeHeap="true"
-    android:icon="@drawable/twomgkirg"
+        android:icon="@drawable/twomgkirg"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Shivaram"></activity>
+        <activity android:name=".SearchUI"></activity>
+        <activity android:name=".Shivaram" />
         <activity android:name=".DeleteFaculty" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RemoteMySQLUI" />

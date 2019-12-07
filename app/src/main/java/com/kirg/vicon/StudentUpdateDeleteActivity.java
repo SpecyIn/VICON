@@ -1,9 +1,11 @@
 package com.kirg.vicon;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.media.Image;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -11,9 +13,11 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.Button;
 import org.json.JSONException;
@@ -29,8 +33,9 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
 public class StudentUpdateDeleteActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btn;
+    Button btn,mBtLoadImage;
     EditText uname;
+    private ImageView mImageView;
     TextView father_name,student_name,student_no,father_no,student_id;
     private Button CallStudentButton;
     private Button CallParentButton;
@@ -38,14 +43,13 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity implements Vi
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
     private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/test2.php";
-
+    private static final String IMAGE_URL = "https://cmritautonomous.org/beeserp/images/photo/17r01a0501.jpg";
+    final int maxTextLength = 2;//max length of your text
     public static final String[] IDNUMBERS = new String[]{
             "17R01A0","18R01A0","19R01A0"
     };
-
-
-
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_update_delete);
@@ -61,13 +65,13 @@ public class StudentUpdateDeleteActivity extends AppCompatActivity implements Vi
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton =  findViewById(R.id.btnCallStudent);
         CallParentButton =  findViewById(R.id.btnCallParent);
-
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 makeStudentPhoneCall();
             }
         });
+
 
         CallParentButton.setOnClickListener(new View.OnClickListener() {
             @Override

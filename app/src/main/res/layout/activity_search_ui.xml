@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="0dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#3F51B5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:orientation="horizontal"
+        android:textSize="32dp"
+        android:paddingLeft="10sp">
+        <AutoCompleteTextView
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="17R01A05D5"
+            android:layout_weight="0.50"
+            android:drawableLeft="@drawable/isearch"
+            android:inputType="textPersonName"/>
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginBottom="15dp"
+            android:text="Search"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="1dp"
+                android:src="@drawable/person"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                app:contentPaddingTop="15dp"
+                app:contentPaddingRight="15dp"
+                app:contentPaddingLeft="15dp"
+                app:contentPaddingBottom="15dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_student_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/roboto_bold"
+
+                        android:layout_marginTop="60dp"
+                        android:textColor="@color/bg_main"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tv_student_id"
+
+                        android:fontFamily="@font/roboto_bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="23sp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_weight="0.45"
+                android:textSize="14sp"
+                android:text="@string/scontactno" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/tv_student_pno"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_weight="0.65"
+                android:textSize="17.3sp"
+                android:ems="10"
+                android:textColor="#AA0000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_weight="0.45"
+                android:textSize="14sp"
+                android:text="@string/parentname" />
+
+            <TextView
+                android:id="@+id/father_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_weight="0.65"
+                android:textSize="17.3sp"
+                android:ems="10"
+                android:textColor="#AA0000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:text="@string/pcontactno" />
+
+
+            <TextView
+                android:id="@+id/tv_father_pno"
+                android:layout_width="0dp"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_height="wrap_content"
+                android:textSize="17.3sp"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#AA0000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="wrap_content"
+                android:text="@string/CallStudent"
+                android:layout_weight="0.50"
+                android:id="@+id/btnCallStudent"
+                android:paddingLeft="10dp"
+                android:background="@color/startblue"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/call"/>
+
+            <Button
+                android:id="@+id/btnCallParent"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:paddingLeft="10dp"
+                android:text="@string/CallParent"
+                android:background="@color/colorone_dashboard"
+                android:drawableLeft="@drawable/call"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/roboto_bolditalic"
+        android:text="Developed by Kirg Technologies"/>
+    </LinearLayout>
+
+</RelativeLayout>

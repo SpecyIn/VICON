@@ -35,6 +35,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.kirg.vicon.SearchUI" />
         <activity android:name="com.kirg.vicon.Shivaram" />
         <activity android:name="com.kirg.vicon.DeleteFaculty" />
         <activity android:name="com.kirg.vicon.LoginActivity" />

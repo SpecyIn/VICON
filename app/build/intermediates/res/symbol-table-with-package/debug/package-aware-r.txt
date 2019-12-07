@@ -757,6 +757,7 @@ color gradient_end_color
 color gradient_start_color
 color graylight
 color green
+color greene
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color input_login
@@ -1179,6 +1180,7 @@ drawable cerclebackgroundpurple
 drawable cerclebackgroundyello
 drawable cfo
 drawable cio
+drawable cmr
 drawable comment
 drawable coo
 drawable cto
@@ -1220,6 +1222,7 @@ drawable indicator_default
 drawable indicator_selected
 drawable indicator_selector
 drawable isearch
+drawable kirg
 drawable like
 drawable linkedinlogo
 drawable list_background
@@ -1557,6 +1560,7 @@ layout activity_login
 layout activity_preload
 layout activity_register
 layout activity_remote_my_sqlui
+layout activity_search_ui
 layout activity_shivaram
 layout activity_student_update_delete
 layout design_bottom_navigation_item

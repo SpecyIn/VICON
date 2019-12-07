@@ -42,14 +42,13 @@ public class RemoteMySQLUI extends AppCompatActivity {
         LinearLayout addNewBtn = findViewById(R.id.addNewBtn);
         LinearLayout Logout = findViewById(R.id.Logout);
         LinearLayout ChangePassword = findViewById(R.id.ChangePassword);
-
         viewAllBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Check for network connectivity
                 if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
                     Intent i = new Intent(getApplicationContext(),
-                            StudentUpdateDeleteActivity.class);
+                            SearchUI.class);
                     startActivity(i);
                 } else {
                     //Display error message if not connected to internet
