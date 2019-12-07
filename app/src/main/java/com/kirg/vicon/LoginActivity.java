@@ -34,9 +34,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        loginInputEmail = (EditText) findViewById(R.id.login_input_email);
-        loginInputPassword = (EditText) findViewById(R.id.login_input_password);
-        btnlogin = (Button) findViewById(R.id.btn_login);
+        loginInputEmail =  findViewById(R.id.login_input_email);
+        loginInputPassword =  findViewById(R.id.login_input_password);
+        btnlogin = findViewById(R.id.btn_login);
         // Progress dialog
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);

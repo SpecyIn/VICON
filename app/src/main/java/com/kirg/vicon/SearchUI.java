@@ -135,7 +135,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
             }
 
         } else {
-            Toast.makeText(SearchUI.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SearchUI.this, "Phone Number Not Retrieved Yet!", Toast.LENGTH_SHORT).show();
         }
     }
 

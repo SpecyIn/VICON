@@ -44,12 +44,12 @@ public class RegisterActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
 
-        signupInputName = (EditText) findViewById(R.id.signup_input_name);
-        signupInputEmail = (EditText) findViewById(R.id.signup_input_email);
-        signupInputPassword = (EditText) findViewById(R.id.signup_input_password);
-        signupInputAge = (EditText) findViewById(R.id.signup_input_age);
+        signupInputName =  findViewById(R.id.signup_input_name);
+        signupInputEmail =  findViewById(R.id.signup_input_email);
+        signupInputPassword =  findViewById(R.id.signup_input_password);
+        signupInputAge =  findViewById(R.id.signup_input_age);
         btngoback =  findViewById(R.id.btn_link_back);
-        btnSignUp = (Button) findViewById(R.id.btn_signup);
+        btnSignUp =  findViewById(R.id.btn_signup);
 
         btngoback.setOnClickListener(new View.OnClickListener() {
             @Override
