@@ -51,7 +51,7 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int ic_launcher = 0x7f070080;
+        public static final int ic_launcher = 0x7f070088;
     }
     public static final class string {
         private string() {}
