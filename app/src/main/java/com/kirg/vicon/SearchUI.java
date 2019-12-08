@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -17,6 +18,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,13 +35,17 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SearchUI extends AppCompatActivity implements View.OnClickListener {
+
+public class SearchUI extends AppCompatActivity implements View.OnClickListener, LoadImageTask.Listener {
     Button btn;
     EditText uname;
     TextView father_name,student_name,student_no,father_no,student_id;
     private Button CallStudentButton,btnhide;
     private Button CallParentButton;
     private TextView CallStudent;
+    private ImageView mImageView;
+    private EditText idnoimg;
+    private Button mBtLoadImage;
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
     private static final String ROOT_URL = "https://kirg.specy.in/vicon_php/SearchUI.php";
@@ -63,6 +69,11 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton = findViewById(R.id.btnCallStudent);
         CallParentButton = findViewById(R.id.btnCallParent);
+        /** **/
+        idnoimg= findViewById(R.id.uname);
+        mImageView = (ImageView) findViewById(R.id.image);
+        mBtLoadImage = (Button) findViewById(R.id.submit_btn);
+
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,8 +95,16 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
         btn.setOnClickListener(this);
     }
 
-    /** WEBVIEW **/
+    /** IMAGE LOAD **/
+    @Override
+    public void onImageLoaded(Bitmap bitmap) {
+        mImageView.setImageBitmap(bitmap);
+    }
 
+    @Override
+    public void onError() {
+        Toast.makeText(this, "Error Loading Image !", Toast.LENGTH_SHORT).show();
+    }
     /**Phone CAll Student
      */
     private void makeStudentPhoneCall() {
@@ -139,9 +158,11 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
 
     @Override
     public void onClick(View view) {
+        String IMAGE_URL ="https://cmritautonomous.org/beeserp/images/photo/"+idnoimg.getText().toString()+".jpg";
         switch (view.getId()){
             case R.id.submit_btn:
                 final String stu_id=uname.getText().toString();
+                new LoadImageTask(this).execute(IMAGE_URL);
                 StringRequest stringRequest = new StringRequest(Request.Method.POST,
                         ROOT_URL, new Response.Listener<String>() {
                     @Override

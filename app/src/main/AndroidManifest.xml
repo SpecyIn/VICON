@@ -14,10 +14,10 @@
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
-        android:xlargeScreens="true"
         android:normalScreens="true"
         android:resizeable="true"
-        android:smallScreens="true" />
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -25,11 +25,13 @@
         android:hardwareAccelerated="true"
         android:icon="@mipmap/twomglogo"
         android:label="@string/app_name"
-        android:usesCleartextTraffic="true"
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".LoadImageTask"></activity>
+        <activity android:name=".imagetest" />
         <activity android:name=".SearchUI" />
         <activity android:name=".Shivaram" />
         <activity android:name=".DeleteFaculty" />

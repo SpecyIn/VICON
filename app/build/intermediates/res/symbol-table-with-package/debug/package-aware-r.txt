@@ -1191,6 +1191,7 @@ id btnCallParent
 id btnCallStudent
 id btn_delete
 id btn_link_back
+id btn_load_image
 id btn_login
 id btn_signup
 id buttonPanel
@@ -1236,6 +1237,7 @@ id fixed
 id footer
 id forever
 id ghost_view
+id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1243,6 +1245,7 @@ id home
 id homeAsUp
 id icon
 id icon_group
+id idno
 id ifRoom
 id image
 id imageView
@@ -1440,6 +1443,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_delete_faculty
+layout activity_imagetest
+layout activity_load_image_task
 layout activity_login
 layout activity_preload
 layout activity_register
