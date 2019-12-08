@@ -48,7 +48,7 @@
 25-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:20:9-37
 26
 27    <application
-27-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:22:5-48:19
+27-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:22:5-47:19
 28        android:allowBackup="true"
 28-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:23:9-35
 29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -74,41 +74,38 @@
 40        <activity android:name="com.kirg.vicon.LoadImageTask" />
 40-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:9-60
 40-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:19-48
-41        <activity android:name="com.kirg.vicon.imagetest" />
-41-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-47
-41-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-44
-42        <activity android:name="com.kirg.vicon.SearchUI" />
+41        <activity android:name="com.kirg.vicon.SearchUI" />
+41-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-46
+41-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-43
+42        <activity android:name="com.kirg.vicon.Shivaram" />
 42-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:9-46
 42-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:19-43
-43        <activity android:name="com.kirg.vicon.Shivaram" />
-43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-46
-43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-43
-44        <activity android:name="com.kirg.vicon.DeleteFaculty" />
+43        <activity android:name="com.kirg.vicon.DeleteFaculty" />
+43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-51
+43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-48
+44        <activity android:name="com.kirg.vicon.LoginActivity" />
 44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:9-51
 44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:19-48
-45        <activity android:name="com.kirg.vicon.LoginActivity" />
+45        <activity android:name="com.kirg.vicon.RemoteMySQLUI" />
 45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:9-51
 45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:19-48
-46        <activity android:name="com.kirg.vicon.RemoteMySQLUI" />
-46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-51
-46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-48
-47        <activity android:name="com.kirg.vicon.RegisterActivity" />
-47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:9-54
-47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-51
-48        <activity android:name="com.kirg.vicon.preload" >
-48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:9-47:20
-48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:19-42
-49            <intent-filter>
-49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:13-46:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:43:17-69
-50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:43:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:45:17-77
-52-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:45:27-74
-53            </intent-filter>
-54        </activity>
-55    </application>
-56
-57</manifest>
+46        <activity android:name="com.kirg.vicon.RegisterActivity" />
+46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-54
+46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-51
+47        <activity android:name="com.kirg.vicon.preload" >
+47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:9-46:20
+47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-42
+48            <intent-filter>
+48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:13-45:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:17-69
+49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:17-77
+51-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:27-74
+52            </intent-filter>
+53        </activity>
+54    </application>
+55
+56</manifest>

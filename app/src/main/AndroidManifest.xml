@@ -31,7 +31,6 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".LoadImageTask"></activity>
-        <activity android:name=".imagetest" />
         <activity android:name=".SearchUI" />
         <activity android:name=".Shivaram" />
         <activity android:name=".DeleteFaculty" />

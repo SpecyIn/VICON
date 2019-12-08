@@ -38,7 +38,6 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity android:name="com.kirg.vicon.LoadImageTask" />
-        <activity android:name="com.kirg.vicon.imagetest" />
         <activity android:name="com.kirg.vicon.SearchUI" />
         <activity android:name="com.kirg.vicon.Shivaram" />
         <activity android:name="com.kirg.vicon.DeleteFaculty" />
