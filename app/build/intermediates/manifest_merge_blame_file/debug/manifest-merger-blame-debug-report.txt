@@ -50,7 +50,7 @@
 27        android:allowBackup="true"
 27-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:22:9-35
 28        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-28-->[com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\ccf94a4f227dfa4f17156620e28a8b98\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+28-->[com.android.support:support-compat:28.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 29        android:debuggable="true"
 30        android:fullBackupContent="true"
 30-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:23:9-41
