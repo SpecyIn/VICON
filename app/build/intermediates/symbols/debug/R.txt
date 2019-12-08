@@ -1472,6 +1472,7 @@ int layout select_dialog_multichoice_material 0x7f0c003a
 int layout select_dialog_singlechoice_material 0x7f0c003b
 int layout support_simple_spinner_dropdown_item 0x7f0c003c
 int mipmap kirg 0x7f0d0000
+int mipmap twomglogo 0x7f0d0001
 int string CallParent 0x7f0e0000
 int string CallStudent 0x7f0e0001
 int string KirgTechnologies 0x7f0e0002

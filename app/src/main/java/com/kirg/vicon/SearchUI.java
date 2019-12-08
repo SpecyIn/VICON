@@ -1,30 +1,25 @@
 package com.kirg.vicon;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
-import android.Manifest;
 import android.content.pm.PackageManager;
-import android.os.Bundle;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.Toast;
 import android.widget.Button;
-import org.json.JSONException;
-import org.json.JSONObject;
-import java.util.HashMap;
-import java.util.Map;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -32,11 +27,17 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class SearchUI extends AppCompatActivity implements View.OnClickListener {
     Button btn;
     EditText uname;
     TextView father_name,student_name,student_no,father_no,student_id;
-    private Button CallStudentButton;
+    private Button CallStudentButton,btnhide;
     private Button CallParentButton;
     private TextView CallStudent;
     private static int REQUEST_CALL = 1;
@@ -51,13 +52,13 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_ui);
         btn = findViewById(R.id.submit_btn);
+        btnhide=findViewById(R.id.submit_btn);
         uname = findViewById(R.id.uname);
         student_id = findViewById(R.id.tv_student_id);
         student_name = findViewById(R.id.tv_student_name);
         student_no = findViewById(R.id.tv_student_pno);
         father_no = findViewById(R.id.tv_father_pno);
         father_name = findViewById(R.id.father_name);
-        btn.setOnClickListener(this);
         CallStudent = findViewById(R.id.tv_student_pno);
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton = findViewById(R.id.btnCallStudent);
@@ -80,10 +81,11 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
                 android.R.layout.simple_list_item_1,IDNUMBERS);
         editText.setAdapter(adapter);
         /** THIS IS WEB VIEW **/
-
+        btn.setOnClickListener(this);
     }
 
     /** WEBVIEW **/
+
     /**Phone CAll Student
      */
     private void makeStudentPhoneCall() {
@@ -142,11 +144,8 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener 
                 final String stu_id=uname.getText().toString();
                 StringRequest stringRequest = new StringRequest(Request.Method.POST,
                         ROOT_URL, new Response.Listener<String>() {
-
                     @Override
                     public void onResponse(String response) {
-
-
                         try {
                             JSONObject jObj = new JSONObject(response);
                             boolean error = jObj.getBoolean("error");
