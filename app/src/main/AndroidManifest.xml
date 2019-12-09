@@ -30,7 +30,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.thekirg.vicon.LoadImageTask"></activity>
+        <activity android:name="com.thekirg.vicon.LoadImageTask"/>
         <activity android:name="com.thekirg.vicon.SearchUI" />
         <activity android:name="com.thekirg.vicon.Shivaram" />
         <activity android:name="com.thekirg.vicon.DeleteFaculty" />
@@ -40,7 +40,6 @@
         <activity android:name="com.thekirg.vicon.preload">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
