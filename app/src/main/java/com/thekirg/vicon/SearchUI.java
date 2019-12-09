@@ -211,7 +211,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
 
                                 String errorMsg = jObj.getString("message");
                                 Toast.makeText(getApplicationContext(),
-                                        "ID Number Not Found!", Toast.LENGTH_LONG).show();
+                                        "ID Number Not Found!", Toast.LENGTH_SHORT).show();
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -223,7 +223,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
                     @Override
                     public void onErrorResponse(VolleyError error) {
 
-                        Toast.makeText(getApplicationContext(),"Something  went wrong",Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"Something  went wrong",Toast.LENGTH_SHORT).show();
 
 
                     }
