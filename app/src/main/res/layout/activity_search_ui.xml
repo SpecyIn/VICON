@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,6 +10,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="210dp"
+        tools:ignore="MissingConstraints"
         android:background="#3F51B5"/>
 
     <LinearLayout
@@ -15,6 +18,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"
         android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
         android:textSize="32dp"
         android:paddingLeft="10sp">
         <AutoCompleteTextView
@@ -44,7 +48,8 @@
         android:id="@+id/kirg"
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp">
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="85dp"
@@ -100,7 +105,7 @@
                         android:textSize="23sp" />
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
@@ -234,4 +239,4 @@
             android:fontFamily="@font/roboto_bolditalic"
         android:text="Developed by Kirg Technologies"/>
     </LinearLayout>
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

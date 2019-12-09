@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\10ae0346493e57bd5c834c5376242eb1\\core-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\331630a23dfa1f0594bcf54d5352aa36\\core-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\af6216f809fc2c81277e34b3aa69a10e\\appcompat-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
