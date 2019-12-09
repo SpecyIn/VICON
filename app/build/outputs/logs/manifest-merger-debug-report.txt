@@ -44,7 +44,7 @@ INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-
 INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-49:12
 INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:4:5-29
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -141,38 +141,38 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Shiva\.gra
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:30:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:31:9-44
-activity#com.kirg.vicon.LoadImageTask
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:9-60
+activity#com.thekirg.vicon.LoadImageTask
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:9-77
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:19-48
-activity#com.kirg.vicon.SearchUI
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-46
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:19-65
+activity#com.thekirg.vicon.SearchUI
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-63
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-43
-activity#com.kirg.vicon.Shivaram
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:9-46
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-60
+activity#com.thekirg.vicon.Shivaram
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:9-63
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:19-43
-activity#com.kirg.vicon.DeleteFaculty
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-51
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:19-60
+activity#com.thekirg.vicon.DeleteFaculty
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-68
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-48
-activity#com.kirg.vicon.LoginActivity
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:9-51
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-65
+activity#com.thekirg.vicon.LoginActivity
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:9-68
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:19-48
-activity#com.kirg.vicon.RemoteMySQLUI
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:9-51
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:19-65
+activity#com.thekirg.vicon.RemoteMySQLUI
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:9-68
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:19-48
-activity#com.kirg.vicon.RegisterActivity
-ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-54
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:19-65
+activity#com.thekirg.vicon.RegisterActivity
+ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-71
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-51
-activity#com.kirg.vicon.preload
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-68
+activity#com.thekirg.vicon.preload
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:9-46:20
 	android:name
-		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-42
+		ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-59
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN

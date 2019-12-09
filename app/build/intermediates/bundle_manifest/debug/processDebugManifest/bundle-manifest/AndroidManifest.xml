@@ -37,14 +37,14 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.kirg.vicon.LoadImageTask" />
-        <activity android:name="com.kirg.vicon.SearchUI" />
-        <activity android:name="com.kirg.vicon.Shivaram" />
-        <activity android:name="com.kirg.vicon.DeleteFaculty" />
-        <activity android:name="com.kirg.vicon.LoginActivity" />
-        <activity android:name="com.kirg.vicon.RemoteMySQLUI" />
-        <activity android:name="com.kirg.vicon.RegisterActivity" />
-        <activity android:name="com.kirg.vicon.preload" >
+        <activity android:name="com.thekirg.vicon.LoadImageTask" />
+        <activity android:name="com.thekirg.vicon.SearchUI" />
+        <activity android:name="com.thekirg.vicon.Shivaram" />
+        <activity android:name="com.thekirg.vicon.DeleteFaculty" />
+        <activity android:name="com.thekirg.vicon.LoginActivity" />
+        <activity android:name="com.thekirg.vicon.RemoteMySQLUI" />
+        <activity android:name="com.thekirg.vicon.RegisterActivity" />
+        <activity android:name="com.thekirg.vicon.preload" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

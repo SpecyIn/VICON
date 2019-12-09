@@ -12,7 +12,7 @@ public class preload extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preload);
 
-        new CountDownTimer(2500, 2000) {
+        new CountDownTimer(3500, 3000) {
             public void onFinish() {
                 Intent startActivity = new Intent(preload.this,LoginActivity.class);
                 startActivity(startActivity);
