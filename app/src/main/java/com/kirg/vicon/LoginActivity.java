@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -27,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private static final String URL_FOR_LOGIN = "https://kirg.specy.in/vicon_php/login.php";
     ProgressDialog progressDialog;
-    private EditText loginInputEmail, loginInputPassword;
+    private EditText loginInputEmail, loginInputPassword,login_input_password;
     private Button btnlogin;
 
     @Override
@@ -37,6 +39,21 @@ public class LoginActivity extends AppCompatActivity {
         loginInputEmail =  findViewById(R.id.login_input_email);
         loginInputPassword =  findViewById(R.id.login_input_password);
         btnlogin = findViewById(R.id.btn_login);
+        //AUTO SUBMIT on tick button
+        login_input_password=findViewById(R.id.login_input_password);
+        login_input_password.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    btnlogin.performClick();
+                    return true;
+                }
+                return false;
+            }
+        });
+
+
+
         // Progress dialog
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);

@@ -25,6 +25,7 @@
             android:maxLength="10"
             android:ems="10"
             android:hint="17R01A05D5"
+            android:imeOptions="actionDone"
             android:layout_weight="0.50"
             android:drawableLeft="@drawable/isearch"
             android:inputType="textPersonName"/>

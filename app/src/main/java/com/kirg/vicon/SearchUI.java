@@ -11,7 +11,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
@@ -41,8 +43,9 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
     private Button CallStudentButton;
     private Button CallParentButton;
     private TextView CallStudent;
+    final int maxTextLength = 10;
     private ImageView mImageView;
-    private EditText idnoimg;
+    private EditText idnoimg,unameautosubmit;
     private Button mBtLoadImage;
     private static int REQUEST_CALL = 1;
     private TextView CallParent;
@@ -66,11 +69,25 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton = findViewById(R.id.btnCallStudent);
         CallParentButton = findViewById(R.id.btnCallParent);
+        //AUTO SUBMIT on tick button
+        unameautosubmit=findViewById(R.id.uname);
+        unameautosubmit.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    btn.performClick();
+                    return true;
+                }
+                return false;
+            }
+        });
+
+
         //
         idnoimg= findViewById(R.id.uname);
         mImageView =  findViewById(R.id.image);
         mBtLoadImage =  findViewById(R.id.submit_btn);
-
+        //CALL
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,7 +118,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
     @Override
     public void onError() {
         mImageView.setImageResource(R.drawable.person);
-        Toast.makeText(this, "Could'nt Load Image", Toast.LENGTH_SHORT).show();
+       // Toast.makeText(this, "Could'nt Load Image", Toast.LENGTH_SHORT).show();
     }
     /**Phone CAll Student
      */
