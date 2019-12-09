@@ -38,7 +38,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
     Button btn;
     EditText uname;
     TextView father_name,student_name,student_no,father_no,student_id;
-    private Button CallStudentButton,btnhide;
+    private Button CallStudentButton;
     private Button CallParentButton;
     private TextView CallStudent;
     private ImageView mImageView;
@@ -56,7 +56,6 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_ui);
         btn = findViewById(R.id.submit_btn);
-        btnhide=findViewById(R.id.submit_btn);
         uname = findViewById(R.id.uname);
         student_id = findViewById(R.id.tv_student_id);
         student_name = findViewById(R.id.tv_student_name);
@@ -67,10 +66,10 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
         CallParent = findViewById(R.id.tv_father_pno);
         CallStudentButton = findViewById(R.id.btnCallStudent);
         CallParentButton = findViewById(R.id.btnCallParent);
-        /** **/
+        //
         idnoimg= findViewById(R.id.uname);
-        mImageView = (ImageView) findViewById(R.id.image);
-        mBtLoadImage = (Button) findViewById(R.id.submit_btn);
+        mImageView =  findViewById(R.id.image);
+        mBtLoadImage =  findViewById(R.id.submit_btn);
 
         CallStudentButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,12 +83,12 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
                 makeParentPhoneCall();
             }
         });
-        /** THis is Auto Text **/
+        // THis is Auto Text
         AutoCompleteTextView editText= findViewById(R.id.uname);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,IDNUMBERS);
         editText.setAdapter(adapter);
-        /** THIS IS WEB VIEW **/
+        //THIS IS WEB VIEW
         btn.setOnClickListener(this);
     }
 
@@ -102,7 +101,7 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
     @Override
     public void onError() {
         mImageView.setImageResource(R.drawable.person);
-        Toast.makeText(this, "Sorry! Could'nt Load the Image", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Could'nt Load Image", Toast.LENGTH_SHORT).show();
     }
     /**Phone CAll Student
      */
@@ -178,8 +177,9 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
                             if (!error) {
                                 String name=jObj.getString("studentname");
                                 String sidnumber=jObj.getString("sidnumber");
-                                String message = jObj.getString("message");
-                                Toast.makeText(getApplicationContext(),message, Toast.LENGTH_LONG).show();
+                                //Get Toast from php
+                                //String message = jObj.getString("message");
+                                //Toast.makeText(getApplicationContext(),message, Toast.LENGTH_LONG).show();
                                 String student_pno=jObj.getString("scontactno");
                                 String f_name=jObj.getString("parentname");
                                 String father_pno=jObj.getString("pcontactno");
