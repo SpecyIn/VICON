@@ -101,7 +101,8 @@ public class SearchUI extends AppCompatActivity implements View.OnClickListener,
 
     @Override
     public void onError() {
-        Toast.makeText(this, "Error Loading Image !", Toast.LENGTH_SHORT).show();
+        mImageView.setImageResource(R.drawable.person);
+        Toast.makeText(this, "Sorry! Could'nt Load the Image", Toast.LENGTH_SHORT).show();
     }
     /**Phone CAll Student
      */
