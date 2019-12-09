@@ -2,7 +2,7 @@ package com.thekirg.vicon;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class preload extends AppCompatActivity {

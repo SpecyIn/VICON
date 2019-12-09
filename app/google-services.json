@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "909759900194-pg6h8avhu9io0t8jupgk8389snrdn7to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thekirg.vicon",
+            "certificate_hash": "d42d0d5dc9702d2081aa6168c9a0430f69f4d5a5"
+          }
+        },
+        {
           "client_id": "909759900194-688nk4es8pvsvca6lchp5h3eajgbcl4q.apps.googleusercontent.com",
           "client_type": 3
         }
