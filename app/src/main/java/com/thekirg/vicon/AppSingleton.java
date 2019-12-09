@@ -1,4 +1,4 @@
-package com.kirg.vicon;
+package com.thekirg.vicon;
 
 
 import android.content.Context;

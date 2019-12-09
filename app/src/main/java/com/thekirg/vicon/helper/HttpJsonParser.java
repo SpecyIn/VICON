@@ -1,4 +1,4 @@
-package com.kirg.vicon.helper;
+package com.thekirg.vicon.helper;
 
 /**
  */

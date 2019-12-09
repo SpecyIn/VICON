@@ -1,34 +1,14 @@
-package com.kirg.vicon;
+package com.thekirg.vicon;
 
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
-import android.widget.TextView;
-import com.kirg.vicon.helper.CheckNetworkStatus;
 
-import org.w3c.dom.Text;
+import com.thekirg.vicon.helper.CheckNetworkStatus;
 
 public class RemoteMySQLUI extends AppCompatActivity {
 

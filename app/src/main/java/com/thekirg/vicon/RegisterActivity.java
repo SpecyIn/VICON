@@ -1,13 +1,11 @@
-package com.kirg.vicon;
+package com.thekirg.vicon;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -24,73 +22,88 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LoginActivity extends AppCompatActivity {
 
-    private static final String TAG = "LoginActivity";
-    private static final String URL_FOR_LOGIN = "https://kirg.specy.in/vicon_php/login.php";
+public class RegisterActivity extends AppCompatActivity {
+
+    private static final String TAG = "RegisterActivity";
+    private static final String URL_FOR_REGISTRATION = "https://kirg.specy.in/vicon_php/register.php";
     ProgressDialog progressDialog;
-    private EditText loginInputEmail, loginInputPassword,login_input_password;
-    private Button btnlogin;
+
+    private EditText signupInputName, signupInputEmail, signupInputPassword, signupInputAge;
+    private Button btnSignUp;
+    private TextView btngoback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        loginInputEmail =  findViewById(R.id.login_input_email);
-        loginInputPassword =  findViewById(R.id.login_input_password);
-        btnlogin = findViewById(R.id.btn_login);
-        //AUTO SUBMIT on tick button
-        login_input_password=findViewById(R.id.login_input_password);
-        login_input_password.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_DONE) {
-                    btnlogin.performClick();
-                    return true;
-                }
-                return false;
-            }
-        });
-
-
+        setContentView(R.layout.activity_register);
 
         // Progress dialog
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
 
-        btnlogin.setOnClickListener(new View.OnClickListener() {
+        signupInputName =  findViewById(R.id.signup_input_name);
+        signupInputEmail =  findViewById(R.id.signup_input_email);
+        signupInputPassword =  findViewById(R.id.signup_input_password);
+        signupInputAge =  findViewById(R.id.signup_input_age);
+        btngoback =  findViewById(R.id.btn_link_back);
+        btnSignUp =  findViewById(R.id.btn_signup);
+
+        btngoback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                loginUser(loginInputEmail.getText().toString(),
-                        loginInputPassword.getText().toString());
-            }
+                    Intent i = new Intent(getApplicationContext(),
+                            RemoteMySQLUI.class);
+                    startActivity(i);
+
+                }
         });
 
+
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                submitForm();
+            }
+        });
     }
 
-    private void loginUser( final String email, final String password) {
+    private void submitForm() {
+
+
+        registerUser(signupInputName.getText().toString(),
+                signupInputEmail.getText().toString(),
+                signupInputPassword.getText().toString(),signupInputAge.getText().toString());
+    }
+
+    private void registerUser(final String name, final String email, final String password,
+                              final String dob) {
         // Tag used to cancel the request
-        String cancel_req_tag = "login";
-        progressDialog.setMessage("Logging you in...");
+        String cancel_req_tag = "register";
+
+        progressDialog.setMessage("Adding you ...");
         showDialog();
+
         StringRequest strReq = new StringRequest(Request.Method.POST,
-                URL_FOR_LOGIN, new Response.Listener<String>() {
+                URL_FOR_REGISTRATION, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {
                 Log.d(TAG, "Register Response: " + response.toString());
                 hideDialog();
+
                 try {
                     JSONObject jObj = new JSONObject(response);
                     boolean error = jObj.getBoolean("error");
 
                     if (!error) {
                         String user = jObj.getJSONObject("user").getString("name");
-                        // Launch User activity
+                        Toast.makeText(getApplicationContext(), " " + user + ", is successfully Added!", Toast.LENGTH_SHORT).show();
+
+                        // Launch login activity
                         Intent intent = new Intent(
-                                LoginActivity.this,
+                                RegisterActivity.this,
                                 RemoteMySQLUI.class);
-                        intent.putExtra("username", user);
                         startActivity(intent);
                         finish();
                     } else {
@@ -108,35 +121,35 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e(TAG, "Login Error: " + error.getMessage());
+                Log.e(TAG, "Registration Error: " + error.getMessage());
                 Toast.makeText(getApplicationContext(),
                         error.getMessage(), Toast.LENGTH_LONG).show();
                 hideDialog();
             }
         }) {
-
             @Override
             protected Map<String, String> getParams() {
-                // Posting params to login url
+                // Posting params to register url
                 Map<String, String> params = new HashMap<String, String>();
+                params.put("name", name);
                 params.put("email", email);
                 params.put("password", password);
+                params.put("age", dob);
                 return params;
             }
-
         };
         // Adding request to request queue
-        AppSingleton.getInstance(getApplicationContext()).addToRequestQueue(strReq,cancel_req_tag);
+        AppSingleton.getInstance(getApplicationContext()).addToRequestQueue(strReq, cancel_req_tag);
     }
 
     private void showDialog() {
         if (!progressDialog.isShowing())
             progressDialog.show();
     }
+
     private void hideDialog() {
         if (progressDialog.isShowing())
             progressDialog.dismiss();
     }
 
 }
-

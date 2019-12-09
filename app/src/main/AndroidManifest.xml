@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kirg.vicon">
+    package="com.thekirg.vicon">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -30,14 +30,14 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".LoadImageTask"></activity>
-        <activity android:name=".SearchUI" />
-        <activity android:name=".Shivaram" />
-        <activity android:name=".DeleteFaculty" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RemoteMySQLUI" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".preload">
+        <activity android:name="com.thekirg.vicon.LoadImageTask"></activity>
+        <activity android:name="com.thekirg.vicon.SearchUI" />
+        <activity android:name="com.thekirg.vicon.Shivaram" />
+        <activity android:name="com.thekirg.vicon.DeleteFaculty" />
+        <activity android:name="com.thekirg.vicon.LoginActivity" />
+        <activity android:name="com.thekirg.vicon.RemoteMySQLUI" />
+        <activity android:name="com.thekirg.vicon.RegisterActivity" />
+        <activity android:name="com.thekirg.vicon.preload">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
