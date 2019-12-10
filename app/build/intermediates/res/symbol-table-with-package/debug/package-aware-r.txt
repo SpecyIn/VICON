@@ -420,6 +420,35 @@ attr maxButtonHeight
 attr maxImageSize
 attr measureWithLargestChild
 attr menu
+attr met_accentTypeface
+attr met_autoValidate
+attr met_baseColor
+attr met_bottomTextSize
+attr met_clearButton
+attr met_errorColor
+attr met_floatingLabel
+attr met_floatingLabelAlwaysShown
+attr met_floatingLabelAnimating
+attr met_floatingLabelPadding
+attr met_floatingLabelText
+attr met_floatingLabelTextColor
+attr met_floatingLabelTextSize
+attr met_helperText
+attr met_helperTextAlwaysShown
+attr met_helperTextColor
+attr met_hideUnderline
+attr met_iconLeft
+attr met_iconPadding
+attr met_iconRight
+attr met_maxCharacters
+attr met_minBottomTextLines
+attr met_minCharacters
+attr met_primaryColor
+attr met_singleLineEllipsis
+attr met_textColor
+attr met_textColorHint
+attr met_typeface
+attr met_underlineColor
 attr multiChoiceItemLayout
 attr navigationContentDescription
 attr navigationIcon
@@ -874,6 +903,8 @@ dimen activity_vertical_margin16dp
 dimen activity_vertical_margin32dp
 dimen activity_vertical_margin64dp
 dimen activity_vertical_margin8dp
+dimen bottom_ellipsis_height
+dimen bottom_text_size
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -884,6 +915,8 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen default_padding_bottom
+dimen default_padding_top
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -934,6 +967,7 @@ dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen floating_label_text_size
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -941,6 +975,9 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen inner_components_spacing
+dimen inner_padding_left
+dimen inner_padding_right
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1171,6 +1208,7 @@ drawable ic_attach_file_black_24dp
 drawable ic_attach_money_black_24dp
 drawable ic_control_point_black_24dp
 drawable ic_email_black_24dp
+drawable ic_expand_more_black_18dp
 drawable ic_group_add_black_24dp
 drawable ic_launcher_background
 drawable ic_lightbulb_outline_black_24dp
@@ -1193,6 +1231,8 @@ drawable linkedinlogo
 drawable list_background
 drawable logout
 drawable logowithtext
+drawable met_ic_clear
+drawable met_ic_close
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1355,6 +1395,7 @@ id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
+id highlight
 id home
 id homeAsUp
 id icon
@@ -1580,6 +1621,7 @@ layout activity_login
 layout activity_preload
 layout activity_register
 layout activity_remote_my_sqlui
+layout activity_search_new
 layout activity_search_ui
 layout activity_shivaram
 layout custom_dialog
@@ -2275,6 +2317,7 @@ styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
+styleable MaterialEditText met_accentTypeface met_autoValidate met_baseColor met_bottomTextSize met_clearButton met_errorColor met_floatingLabel met_floatingLabelAlwaysShown met_floatingLabelAnimating met_floatingLabelPadding met_floatingLabelText met_floatingLabelTextColor met_floatingLabelTextSize met_helperText met_helperTextAlwaysShown met_helperTextColor met_hideUnderline met_iconLeft met_iconPadding met_iconRight met_maxCharacters met_minBottomTextLines met_minCharacters met_primaryColor met_singleLineEllipsis met_textColor met_textColorHint met_typeface met_underlineColor
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
