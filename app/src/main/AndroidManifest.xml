@@ -30,6 +30,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".LoadImageTask" />
         <activity android:name=".SearchUI" />
         <activity android:name=".Shivaram" />

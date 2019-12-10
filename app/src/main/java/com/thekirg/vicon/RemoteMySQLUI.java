@@ -28,7 +28,7 @@ public class RemoteMySQLUI extends AppCompatActivity {
                 //Check for network connectivity
                 if (CheckNetworkStatus.isNetworkAvailable(getApplicationContext())) {
                     Intent i = new Intent(getApplicationContext(),
-                            SearchUI.class);
+                            MainActivity.class);
                     startActivity(i);
                 } else {
                     //Display error message if not connected to internet
