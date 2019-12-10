@@ -54,8 +54,8 @@
 28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
 28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-29-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
-29-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+29-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
 30
 31    <application
 31-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:22:5-47:19
@@ -76,153 +76,226 @@
 39-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:28:9-33
 40        android:supportsRtl="true"
 40-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:29:9-35
-41        android:theme="@style/AppTheme"
-41-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:30:9-40
-42        android:usesCleartextTraffic="true" >
-42-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:31:9-44
-43        <activity android:name="com.thekirg.vicon.LoadImageTask" />
-43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:9-51
-43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:19-48
-44        <activity android:name="com.thekirg.vicon.SearchUI" />
-44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-46
-44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-43
-45        <activity android:name="com.thekirg.vicon.Shivaram" />
-45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:9-46
-45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:19-43
-46        <activity android:name="com.thekirg.vicon.DeleteFaculty" />
-46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-51
-46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-48
-47        <activity android:name="com.thekirg.vicon.LoginActivity" />
-47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:9-51
-47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:19-48
-48        <activity android:name="com.thekirg.vicon.RemoteMySQLUI" />
-48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:9-51
-48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:19-48
-49        <activity android:name="com.thekirg.vicon.RegisterActivity" />
-49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-54
-49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-51
-50        <activity android:name="com.thekirg.vicon.preload" >
-50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:9-46:20
-50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-42
-51            <intent-filter>
-51-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:13-45:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:17-69
-52-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:17-77
-54-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:27-74
-55            </intent-filter>
-56        </activity>
-57
-58        <receiver
-58-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-59            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-59-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-60            android:enabled="true"
-60-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-61            android:exported="false" >
-61-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-62        </receiver>
-63        <receiver
-63-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-64            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-64-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
-65            android:enabled="true"
-65-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-66            android:exported="true"
-66-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-67            android:permission="android.permission.INSTALL_PACKAGES" >
-67-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-68            <intent-filter>
-68-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-69                <action android:name="com.android.vending.INSTALL_REFERRER" />
-69-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-69-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-70            </intent-filter>
-71        </receiver>
-72
-73        <service
-73-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-74            android:name="com.google.android.gms.measurement.AppMeasurementService"
-74-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-75            android:enabled="true"
-75-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-76            android:exported="false" />
-76-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-77        <service
-77-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-78            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-78-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-79            android:enabled="true"
-79-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-80            android:exported="false"
-80-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-81            android:permission="android.permission.BIND_JOB_SERVICE" />
-81-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-82        <service
-82-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
-83            android:name="com.google.firebase.components.ComponentDiscoveryService"
-83-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:28:13-84
-84            android:exported="false" >
-84-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:29:13-37
-85            <meta-data
-85-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-86-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-88            <meta-data
-88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
-89                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-89-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
-90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
-91        </service>
-92
-93        <receiver
-93-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
-94            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
-95            android:exported="true"
-95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
-96            android:permission="com.google.android.c2dm.permission.SEND" >
-96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
-97            <intent-filter>
-97-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
-98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-98-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
-98-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\639f8437c4526e7423a3600ed1045aa0\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
-99            </intent-filter>
-100        </receiver>
-101
-102        <provider
-102-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
-103            android:name="com.google.firebase.provider.FirebaseInitProvider"
-103-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
-104            android:authorities="com.thekirg.vicon.firebaseinitprovider"
-104-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
-105            android:exported="false"
-105-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
-106            android:initOrder="100" />
-106-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\8abde26a42bb7f6a8f02f592e3e1bf4a\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme"
+42-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:30:9-40
+43        android:usesCleartextTraffic="true" >
+43-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:31:9-44
+44        <activity android:name="com.thekirg.vicon.LoadImageTask" />
+44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:9-51
+44-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:33:19-48
+45        <activity android:name="com.thekirg.vicon.SearchUI" />
+45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:9-46
+45-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:34:19-43
+46        <activity android:name="com.thekirg.vicon.Shivaram" />
+46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:9-46
+46-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:35:19-43
+47        <activity android:name="com.thekirg.vicon.DeleteFaculty" />
+47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:9-51
+47-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:36:19-48
+48        <activity android:name="com.thekirg.vicon.LoginActivity" />
+48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:9-51
+48-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:37:19-48
+49        <activity android:name="com.thekirg.vicon.RemoteMySQLUI" />
+49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:9-51
+49-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:38:19-48
+50        <activity android:name="com.thekirg.vicon.RegisterActivity" />
+50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:9-54
+50-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:39:19-51
+51        <activity android:name="com.thekirg.vicon.preload" >
+51-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:9-46:20
+51-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:40:19-42
+52            <intent-filter>
+52-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:41:13-45:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:17-69
+53-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:42:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:17-77
+55-->C:\Users\Shiva\Desktop\ViCON\app\src\main\AndroidManifest.xml:44:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+63            <meta-data
+63-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+64-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+67-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a39540784cbcb52e36d848f9d2e86d57\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+70                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+70-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a39540784cbcb52e36d848f9d2e86d57\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\a39540784cbcb52e36d848f9d2e86d57\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+73                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+73-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\638a888dc69abcf1f17dc65c27bf54c8\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-config:19.0.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\7cba28c533c975c60d47c54628885827\firebase-config-19.0.3\AndroidManifest.xml:32:13-34:85
+76                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+76-->[com.google.firebase:firebase-config:19.0.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\7cba28c533c975c60d47c54628885827\firebase-config-19.0.3\AndroidManifest.xml:33:17-117
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-config:19.0.3] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\7cba28c533c975c60d47c54628885827\firebase-config-19.0.3\AndroidManifest.xml:34:17-82
+78            <meta-data
+78-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+79                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+79-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+82-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\47690ecf44ad5b3a6467d36b8bd23e0a\firebase-abt-19.0.0\AndroidManifest.xml:13:13-15:85
+85                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+85-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\47690ecf44ad5b3a6467d36b8bd23e0a\firebase-abt-19.0.0\AndroidManifest.xml:14:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-abt:19.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\47690ecf44ad5b3a6467d36b8bd23e0a\firebase-abt-19.0.0\AndroidManifest.xml:15:17-82
+87        </service>
+88
+89        <activity
+89-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+90            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+90-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+91            android:excludeFromRecents="true"
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+92            android:exported="true"
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+93            android:launchMode="singleTask"
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+94            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+96        <!--
+97             FirebaseMessagingService performs security checks at runtime,
+98             but set to not exported to explicitly avoid allowing another app to call it.
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+101            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+101-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+103            <intent-filter android:priority="-500" >
+103-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:31:13-33:29
+103-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:31:28-51
+104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+104-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:32:17-78
+104-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\749a4da72211d738f925952d8d591fc9\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:32:25-75
+105            </intent-filter>
+106        </service>
 107
-108        <activity
-108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-110            android:exported="false"
-110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-112
-113        <meta-data
-113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-114            android:name="com.google.android.gms.version"
-114-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-115            android:value="@integer/google_play_services_version" />
-115-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-116    </application>
-117
-118</manifest>
+108        <receiver
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+109            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+109-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+111            android:exported="false" >
+111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+112        </receiver>
+113        <receiver
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+114            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+116            android:exported="true"
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+117            android:permission="android.permission.INSTALL_PACKAGES" >
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+118            <intent-filter>
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+119                <action android:name="com.android.vending.INSTALL_REFERRER" />
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+120            </intent-filter>
+121        </receiver>
+122
+123        <service
+123-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+124            android:name="com.google.android.gms.measurement.AppMeasurementService"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+126            android:exported="false" />
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+127        <service
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+128            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+131            android:permission="android.permission.BIND_JOB_SERVICE" />
+131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+132
+133        <receiver
+133-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+134            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+134-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+135            android:exported="true"
+135-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+136            android:permission="com.google.android.c2dm.permission.SEND" >
+136-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+137            <intent-filter>
+137-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+138-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\c6404191372f0bf8c36a778b6a88938e\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+139            </intent-filter>
+140        </receiver>
+141
+142        <activity
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+149            android:authorities="com.thekirg.vicon.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+150            android:exported="false"
+150-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+151            android:initOrder="100" />
+151-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\9dc4948555d91e72c783a003fb565879\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shiva\.gradle\caches\transforms-2\files-2.1\e3ebfd80f6fcc3763bd4e70ada417019\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+156    </application>
+157
+158</manifest>

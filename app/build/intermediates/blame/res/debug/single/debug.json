@@ -1348,10 +1348,6 @@
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_new.xml.flat",
-        "source": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\src\\main\\res\\layout\\activity_search_new.xml"
-    },
-    {
         "merged": "C:\\Users\\Shiva\\Desktop\\ViCON\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
         "source": "C:\\Users\\Shiva\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
     },
